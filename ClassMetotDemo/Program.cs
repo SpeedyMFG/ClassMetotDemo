@@ -25,8 +25,13 @@ namespace ClassMetotDemo
                 Console.WriteLine(musteri.MusteriMemleket);
                 Console.WriteLine("-----------------------------");
 
-
             }
+
+            MusteriManager musteriManager = new MusteriManager();
+            musteriManager.Ekle(musteri1);
+            musteriManager.Sil(musteri2);
+
+
 
 
 
